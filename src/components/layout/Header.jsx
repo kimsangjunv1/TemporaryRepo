@@ -1,9 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+export let gwayeon;
 
-const Header = () => {
+console.log("gwayeon : ", gwayeon);
+
+const Header = (test) => {
   return (
-    <header id="header">
+    <header
+      id="header"
+      onClick={() => {
+        {
+          test.gwayeon;
+        }
+        alert("윽!");
+      }}
+    >
       <a href="#main">KIMSANGJUN</a>
       <div className="menu_cont">
         <a href="#javascript">Javascript</a>
