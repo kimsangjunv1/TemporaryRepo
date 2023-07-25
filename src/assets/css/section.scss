@@ -285,8 +285,10 @@
     white-space: nowrap;
   }
   em {
+    background: linear-gradient(45deg, #19f5a5 0%, #e6ea19 100%);
+    color: transparent;
+    -webkit-background-clip: text;
     font-weight: 900;
-    color: #fff;
   }
 }
 .section3_item {
@@ -295,15 +297,16 @@
   gap: 20px;
   a {
     padding: 0.5vw;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff2e;
     color: #fff;
     width: 4.5vw;
     font-size: 1vw;
     margin-right: 5px;
     &:hover {
       transition: 0.25s;
-      background: #fff;
-      color: #5046ac !important;
+      background: #19f5a5;
+      color: black;
+      border: 1px solid #19f5a5;
     }
     &:not(:hover) {
       transition: 0.25s;
@@ -365,16 +368,12 @@
 }
 .section3_item {
   .item_desc {
-    background: linear-gradient(
-      45deg,
-      rgb(42 34 116),
-      rgba(42, 34, 116, 0.7215686275)
-    );
+    background: #000000ad;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     padding: 20px;
     transform: translate(-122px, 18px);
-    border: 11px solid rgb(0 0 0 / 13%);
+    border: 1px solid #ffffff1f;
     position: relative;
 
     &::after {

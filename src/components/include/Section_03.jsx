@@ -13,7 +13,7 @@ const Section_03 = () => {
     <section id="javascript" className="horizontal">
       <div className="section3_fixed">
         <h2>
-          JAVSCRIPT <em>EFFECT</em>
+          JAVASCRIPT <em>PRACTICE</em>
         </h2>
       </div>
 
@@ -140,8 +140,8 @@ const Section_03 = () => {
           <img src={section3_img_006} alt="Search Effect" />
           <div className="item_desc">
             <h2>
-              GAME <br />
-              EFFECT
+              JS <br />
+              PROJECT
             </h2>
             <p></p>
             <a href="https://github.com/kimsangjunv1/codingclass/blob/main/javascript/effect/gameEffect01.html">
