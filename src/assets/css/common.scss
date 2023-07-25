@@ -224,10 +224,11 @@ body {
   align-items: flex-end;
   flex-direction: column;
   z-index: 111;
-  font-family: "Red Hat Display";
+  font-family: Red Hat Display;
   padding: 7.2vw 0;
   font-weight: 900;
   font-size: 0.7vw;
+  text-transform: uppercase;
   p {
     transform: rotate(90deg);
     background: transparent !important;
