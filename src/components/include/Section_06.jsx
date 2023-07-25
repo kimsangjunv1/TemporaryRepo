@@ -11,7 +11,7 @@ const Section_06 = () => {
       <div>
         <div className="section6p5_static">
           <p className="section6p5_title">
-            SITE <em>TYPE</em>
+            ALL <em>PROJECT</em>
           </p>
         </div>
         <div className="light ir">light</div>
