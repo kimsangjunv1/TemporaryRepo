@@ -297,8 +297,8 @@
   gap: 20px;
   a {
     padding: 0.5vw;
-    border: 1px solid #ffffff2e;
-    color: #fff;
+    border: 1px solid black;
+    color: black;
     width: 4.5vw;
     font-size: 1vw;
     margin-right: 5px;
@@ -324,7 +324,7 @@
     width: 32vw;
     font-size: 1vw;
     margin: 10px 0px 30px 0px;
-    color: #ffffffc2;
+    // color: #ffffffc2;
   }
   img {
     width: 30vw;
@@ -368,13 +368,15 @@
 }
 .section3_item {
   .item_desc {
-    background: #000000ad;
+    background: rgb(255 255 255 / 68%);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     padding: 20px;
     transform: translate(-122px, 18px);
-    border: 1px solid #ffffff1f;
+    border: 1px solid rgb(65 56 56 / 12%);
     position: relative;
+    color: black;
+    box-shadow: 0 20px 50px -20px black;
 
     &::after {
       position: absolute;
