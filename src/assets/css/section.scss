@@ -1866,18 +1866,22 @@ h1 {
   top: 43vw;
   left: 62vw;
   z-index: 2;
-  /* filter: blur(5px); */
   transform: skew(7deg, 355deg) scale(2.1);
-  border: 5px solid #322784;
+  border: 5px solid #ffffff12;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 50px 70px -30px #0000007a;
 }
 
 .s6p5_2 {
   top: 53vw;
   left: 70vw;
   z-index: 2;
-  /* filter: blur(5px); */
   transform: skew(341deg, 11deg) scale(0.8);
-  border: 10px solid #1e1659;
+  border: 10px solid #ffffff12;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 50px 70px -30px #0000007a;
 }
 .s6p5_3 {
   top: 60vw;
@@ -1890,7 +1894,10 @@ h1 {
   left: 12vw;
   z-index: 2;
   transform: skew(8deg, 2deg) scale(1.7);
-  border: 5px solid #1e1659;
+  border: 5px solid #ffffff12;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 50px 70px -30px #0000007a;
 }
 .s6p5_5 {
   top: 102vw;
@@ -1909,7 +1916,10 @@ h1 {
   left: 15vw;
   z-index: 2;
   transform: skew(15deg, 4deg) rotate(348deg) scale(1.8);
-  border: 5px solid #1e1659;
+  border: 5px solid #ffffff12;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 50px 70px -30px #0000007a;
 }
 .s6p5_8 {
   top: 177vw;
@@ -1928,17 +1938,19 @@ h1 {
   top: 235vw;
   left: 66vw;
   z-index: 0;
-  /* filter: blur(10px); */
-  /* opacity: 0.5; */
-  border: 5px solid #322784;
+  border: 5px solid #ffffff12;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 50px 70px -30px #0000007a;
 }
 .s6p5_11 {
   top: 242vw;
   left: 70vw;
-  z-index: 0;
-  /* filter: blur(10px); */
   z-index: 1;
-  border: 10px solid #322784;
+  border: 5px solid #ffffff12;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 50px 70px -30px #0000007a;
 }
 
 // ---
