@@ -390,7 +390,6 @@
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     transform: translate(-122px, 18px);
-    border: 1px solid rgba(65, 56, 56, 0.12);
     position: relative;
     color: #000;
     box-shadow: 0 20px 50px -20px #000;
@@ -608,6 +607,7 @@
       color: transparent;
       -webkit-background-clip: text;
       font-weight: 900;
+      filter: hue-rotate(303deg);
     }
   }
   .desc_cont {
