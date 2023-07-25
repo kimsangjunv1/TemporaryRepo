@@ -137,7 +137,7 @@
     em {
       font-weight: 900;
       color: #17f5a4;
-      filter: drop-shadow(0px 0px 26px #17f5a463);
+      filter: drop-shadow(0px 0px 26px rgba(23, 245, 164, 0.19));
     }
   }
   &::before {
@@ -341,11 +341,8 @@
     margin: 0 20px 20px;
     line-height: 160%;
     word-break: keep-all;
-    /* background: #ffffff8f; */
-    /* color: black; */
-    border-left: 7px solid #000000;
-    padding: 0 10px;
-    /* border-radius: 10px; */
+    padding: 10px;
+    background: #0000000d;
   }
   img {
     width: 30vw;
@@ -389,7 +386,7 @@
 }
 .section3_item {
   .item_desc {
-    background: rgba(255, 255, 255, 0.68);
+    background: rgb(255 255 255 / 80%);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     transform: translate(-122px, 18px);
@@ -915,6 +912,7 @@
 .section4_rev_icon_layout {
   position: relative;
   color: #82869c70;
+  filter: drop-shadow(0 20px 20px rgba(130, 134, 156, 0.4392156863));
 }
 .lamas {
   width: 56.5vw;
@@ -1478,12 +1476,12 @@ h1 {
 .light {
   width: 100%;
   height: 24vw;
-  background: #715f9d;
+  background: linear-gradient(216deg, #19ae77, #2f67bf);
   border-radius: 100%;
   filter: blur(66px);
   top: 7vw;
   left: 50%;
-  transform: translatex(-50%);
+  transform: translate(-50%);
   position: absolute;
 }
 .light_on_top {
