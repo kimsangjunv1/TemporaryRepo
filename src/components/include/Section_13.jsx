@@ -34,7 +34,7 @@ const Section_13 = () => {
           <img className="sec13_logo" src={section13_logo} alt="" />
           <img className="sec13_bg polygon" src={section13_logo_bg} alt="" />
         </div>
-        <div style={{ background: "#055d63c7" }} className="color_bg"></div>
+        <div style={{ background: "#161c29e0" }} className="color_bg"></div>
 
         <img
           className="section13_main_screenshot"
