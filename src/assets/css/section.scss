@@ -254,6 +254,7 @@
   font-size: 2vw;
   font-family: "NexonLv1GothicLow";
   font-weight: 400;
+  color: #17f5a4;
 }
 .second_name {
   font-size: 5vw;
@@ -295,36 +296,53 @@
   display: flex;
   align-items: flex-end;
   gap: 20px;
-  a {
-    padding: 0.5vw;
-    border: 1px solid black;
-    color: black;
-    width: 4.5vw;
-    font-size: 1vw;
-    margin-right: 5px;
-    &:hover {
-      transition: 0.25s;
-      background: #19f5a5;
-      color: black;
-      border: 1px solid #19f5a5;
-    }
-    &:not(:hover) {
-      transition: 0.25s;
-    }
-    &:last-child {
-      margin-right: 0;
+  div {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+      color: #000;
+      font-size: 1vw;
+      font-weight: 700;
+      border-top: 1px solid #00000033;
+      text-align: center;
+      text-transform: uppercase;
+
+      &:hover {
+        transition: 0.25s;
+        background: #19f5a5;
+        color: black;
+      }
+      &:not(:hover) {
+        transition: 0.25s;
+      }
+      &:first-child {
+        border-right: 1px solid #00000033;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
   h2 {
     font-size: 2.2vw;
     font-weight: 900;
     line-height: 0.8;
+    padding: 20px;
   }
   p {
     width: 32vw;
     font-size: 1vw;
-    margin: 10px 0px 30px 0px;
-    // color: #ffffffc2;
+    /* margin: 10px 0 30px; */
+    padding: 20px;
+    padding-top: 0;
+    line-height: 160%;
+    word-break: keep-all;
   }
   img {
     width: 30vw;
@@ -371,7 +389,7 @@
     background: rgb(255 255 255 / 68%);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    padding: 20px;
+    // padding: 20px;
     transform: translate(-122px, 18px);
     border: 1px solid rgb(65 56 56 / 12%);
     position: relative;
@@ -381,11 +399,11 @@
     &::after {
       position: absolute;
       top: 20px;
-      right: 26px;
+      right: 28px;
       content: "";
-      width: 5px;
+      width: 2px;
       height: 20px;
-      background: #fff;
+      background: #000000;
       border-radius: 100px;
       transform: rotate(45deg);
     }
