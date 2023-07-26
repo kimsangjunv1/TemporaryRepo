@@ -2235,9 +2235,6 @@ h1 {
   justify-content: flex-end;
   padding: 120px 0;
   z-index: 1;
-  p {
-    color: black;
-  }
 }
 .section10_logo_cont {
   position: relative;
@@ -2620,7 +2617,6 @@ h1 {
 .section_rv_button_cont {
   display: flex;
   justify-content: start;
-  gap: 5px;
   margin-top: 20px;
   border: 1px solid #ffffff1f;
   width: 140px;
