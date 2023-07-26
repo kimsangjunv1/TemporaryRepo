@@ -1069,44 +1069,61 @@
   }
 }
 .section5_item {
-  color: #26263b;
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
-  // filter: blur(5px);
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+  background: #161c29;
+  padding: 20px 120px;
+  border-radius: 180px;
+  overflow: hidden;
   > h2 {
-    text-align: center;
     font-size: 5vw;
-    font-weight: bold;
-    font-family: "GmarketSans";
+    font-weight: 700;
+    font-family: GmarketSans;
+    text-align: left;
+    line-height: 1.1;
+    margin-bottom: 20px;
   }
   p {
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
     font-size: 1.1vw;
+    z-index: 1;
   }
   a {
-    color: #26263b;
-    border: 1px solid #26263b;
+    color: white;
+    border: 1px solid white;
     width: 6vw;
     height: 3vw;
     font-size: 1.1vw;
+    text-align: left;
     transition: 0.25s;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     &:hover {
-      background: #26263b;
-      color: #fff;
+      background: #10c06b;
+      color: black;
+      border: 1px solid #10c06b;
     }
     &:not(:hover) {
       transition: 0.25s;
     }
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(90deg, #161c29 10%, #161c2900);
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 1px;
   }
 }
 .panel2 {
@@ -1146,9 +1163,20 @@
   gap: 5px;
 }
 .section5_screenshot_cont {
-  margin-bottom: 50px;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  height: 100%;
+  overflow: hidden;
+  width: 50%;
   img {
-    width: 22vw;
+    width: 120%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
   }
 }
 .section5_contents_cont {
@@ -1682,8 +1710,9 @@ h1 {
   filter: blur(10px);
 }
 .s5p5_4 {
-  top: 80vw;
+  top: 90vw;
   left: 10vw;
+  width: 40vw;
   z-index: 2;
   transform: skew(10deg, 2deg);
   border: 10px solid rgba(255, 255, 255, 0.0705882353);
@@ -1704,8 +1733,9 @@ h1 {
   filter: blur(10px);
 }
 .s5p5_7 {
-  top: 161vw;
-  left: 25vw;
+  top: 160vw;
+  left: 10vw;
+  width: 40vw;
   z-index: 2;
   transform: skew(343deg, 354deg);
   border: 10px solid rgba(255, 255, 255, 0.0705882353);
