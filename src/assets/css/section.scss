@@ -1659,10 +1659,15 @@ h1 {
   width: 22vw;
 }
 .s5p5_1 {
-  top: 20vw;
-  left: 60vw;
+  top: 30vw;
+  left: 50vw;
   z-index: 2;
+  width: 40vw;
   transform: skew(346deg, 354deg) rotate(340deg);
+  border: 10px solid rgba(255, 255, 255, 0.0705882353);
+  box-shadow: 0 50px 70px -30px #0000007a;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 .s5p5_2 {
   top: 40vw;
@@ -1681,6 +1686,10 @@ h1 {
   left: 10vw;
   z-index: 2;
   transform: skew(10deg, 2deg);
+  border: 10px solid rgba(255, 255, 255, 0.0705882353);
+  box-shadow: 0 50px 70px -30px #0000007a;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 .s5p5_5 {
   top: 102vw;
@@ -1699,6 +1708,10 @@ h1 {
   left: 25vw;
   z-index: 2;
   transform: skew(343deg, 354deg);
+  border: 10px solid rgba(255, 255, 255, 0.0705882353);
+  box-shadow: 0 50px 70px -30px #0000007a;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 .s5p5_8 {
   top: 177vw;
