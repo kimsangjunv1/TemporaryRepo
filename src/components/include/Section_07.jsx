@@ -14,7 +14,7 @@ const Section_07 = () => {
       <div>
         <div className="section6p7_static">
           <p className="section6p7_title">
-            ALL <em>PROJECT</em>
+            TEAM <em>PROJECT</em>
           </p>
         </div>
         <div className="light ir">light</div>
