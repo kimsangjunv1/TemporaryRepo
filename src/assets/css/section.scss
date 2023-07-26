@@ -1783,7 +1783,7 @@ h1 {
 }
 .site_type_01_desc {
   position: absolute;
-  top: 49.2vw;
+  top: 32.2vw;
   left: 21vw;
   transform: skew(3deg, 3deg);
 }
@@ -1852,20 +1852,44 @@ h1 {
 .site_type_06_desc p,
 .site_type_07_desc p {
   font-size: 1.2vw;
+  padding: 0 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-left: 11px solid white;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.site_type_01_desc p strong,
+.site_type_02_desc p strong,
+.site_type_03_desc p strong,
+.site_type_04_desc p strong,
+.site_type_05_desc p strong,
+.site_type_06_desc p strong,
+.site_type_07_desc p strong {
+  font-weight: 900;
+  font-size: 2.1vw;
+  color: #19f5a5;
 }
 .section6p5_button_cont {
   display: flex;
   justify-content: start;
-  gap: 5px;
+  /* gap: 5px; */
   margin-top: 20px;
+  border: 1px solid #ffffff12;
+  width: 10vw;
 }
 .section6p5_button_cont a {
   border: 1px solid #fff;
   padding: 10px;
   transition: 0.25s;
+  width: 50%;
+  &:first-child {
+    border-right: 1px solid #ffffff12;
+  }
 }
 .section6p5_button_cont a:hover {
-  background: #fff;
+  background: #19f5a5;
   color: #000;
 }
 .section6p5_button_cont a:not(:hover) {
