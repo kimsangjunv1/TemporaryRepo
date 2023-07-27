@@ -14,14 +14,19 @@ const Section_12 = () => {
         <div className="section12_desc_cont">
           <div className="title_wrap">
             <p className="title">
-              VUE API
+              SHOWCASE
               <br />
-              <em>PICTURE</em>
+              <em>WEBSITE</em>
             </p>
-            <p className="sub_ttitle">UNSPLASH</p>
+            <p className="sub_ttitle">VUE</p>
           </div>
           <p>
-            Vue를 이용해 Unsplash에서 제공하는 api를 이용해
+            Axios를 사용해 RESTful API를 활용하여
+            <br />
+            Unsplash에서 제공하는 api로
+            <br />
+            검색한 사진들을 보여주도록 하였으며
+            <br />
             <br />
             SPA를 구현하였으며 Swiper를 이용해 슬라이드 섹션도 제작해두었습니다.
           </p>

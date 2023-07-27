@@ -18,16 +18,21 @@ const Section_09 = () => {
         <div className="section9_desc_cont">
           <div className="title_wrap">
             <p className="title">
-              REACT API
+              POPULAR MOVIE
               <br />
-              <em>MOVIE</em>
+              <em>WEBSITE</em>
             </p>
             <p className="sub_ttitle">TMDB</p>
           </div>
           <p>
-            USEEFFECT와 USESTATE를 활용하여
+            Axios를 사용해 RESTful API를 활용하여
             <br />
-            영화 목록 및 검색기능을 추가하였습니다.
+            TMDB에서 제공하는 api를 이용해 검색
+            <br />
+            가능한 영화 목록 웹사이트를 만들었습니다.
+            <br />
+            <br />
+            영화 목록들을 검색하고 검색한 결과를 보여주는 사이트를 만들었습니다.
           </p>
           <div className="section_rv_button_cont">
             <a href="https://github.com/kimsangjunv1/react_api">CODE</a>
