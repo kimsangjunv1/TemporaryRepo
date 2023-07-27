@@ -22,7 +22,7 @@ const Section_09 = () => {
               <br />
               <em>WEBSITE</em>
             </p>
-            <p className="sub_ttitle">TMDB</p>
+            <p className="sub_ttitle">REACT</p>
           </div>
           <p>
             Axios를 사용해 RESTful API를 활용하여

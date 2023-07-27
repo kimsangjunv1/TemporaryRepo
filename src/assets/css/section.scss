@@ -514,9 +514,6 @@
         margin-bottom: 20px;
         font-size: 4vw;
       }
-      .section5_button_cont {
-        gap: 5px;
-      }
     }
     .section5_item a {
       width: 14vw;
@@ -1109,23 +1106,22 @@
     justify-content: center;
     &:first-child {
       border-right: 1px solid #ffffff29;
+      border-radius: 100px 0 0 100px;
       &:hover {
         background: #10c06b;
         color: black;
         border: 1px solid #10c06b;
-        border-radius: 100px 0 0 100px;
       }
       &:not(:hover) {
         transition: 0.25s;
       }
     }
     &:last-child {
-      border-right: 1px solid #ffffff29;
+      border-radius: 0 100px 100px 0;
       &:hover {
         background: #10c06b;
         color: black;
         border: 1px solid #10c06b;
-        border-radius: 0 100px 100px 0;
       }
       &:not(:hover) {
         transition: 0.25s;
@@ -1176,7 +1172,6 @@
 .section5_button_cont {
   display: flex;
   justify-content: center;
-  gap: 5px;
   border: 1px solid #ffffff29;
   border-radius: 100px;
 }
