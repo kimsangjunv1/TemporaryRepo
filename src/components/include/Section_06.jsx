@@ -24,6 +24,10 @@ const Section_06 = () => {
           />
           <div className="site_type_01_desc">
             <h2>PICK</h2>
+            <div className="project_type">
+              <span>팀 프로젝트</span>
+              <span>담당 : 디자인 100% / 프론트 60% / 퍼블리싱 80%</span>
+            </div>
             <p>
               <strong>
                 뮤직플레이어 Pick은 날씨에 따라
@@ -68,6 +72,9 @@ const Section_06 = () => {
           />
           <div className="site_type_02_desc">
             <h2>Sumz</h2>
+            <div className="project_type">
+              <span>개인 프로젝트</span>
+            </div>
             <p>
               <strong>
                 Sumz는 우리가 일상 생활에서 보는 뉴스 본문들을
@@ -98,6 +105,9 @@ const Section_06 = () => {
           />
           <div className="site_type_03_desc">
             <h2>Car Hub</h2>
+            <div className="project_type">
+              <span>개인 프로젝트</span>
+            </div>
             <p>
               <strong>
                 Car Hub는 제조사별 차량들의 모습과

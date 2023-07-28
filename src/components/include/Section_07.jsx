@@ -32,10 +32,13 @@ const Section_07 = () => {
             alt=""
           />
           <div className="site_type_04_desc">
-            <h2>YOUTUBE</h2>
+            <h2>TECHTUBE</h2>
+            <div className="project_type">
+              <span>개인 프로젝트</span>
+            </div>
             <p>
               <strong>
-                Tech Tube는 제가 좋아하는 유튜버들의 목록을 왼쪽에 배치하여
+                TechTube는 제가 좋아하는 유튜버들의 목록을 왼쪽에 배치하여
                 <br />
                 각 유튜버들이 어떠한 영상을 올렸고 어떠한 댓글이 달렸는지
                 <br />
@@ -73,6 +76,10 @@ const Section_07 = () => {
           />
           <div className="site_type_05_desc">
             <h2>GGUDA</h2>
+            <div className="project_type">
+              <span>팀 프로젝트</span>
+              <span>담당 : 디자인 100% / 프론트 100% / 퍼블리싱 40%</span>
+            </div>
             <p>
               <strong>
                 꾸다는 다꾸(다이어리 꾸미기)와 같은 정보나
@@ -115,6 +122,9 @@ const Section_07 = () => {
           />
           <div className="site_type_06_desc">
             <h2>PHP BLOG</h2>
+            <div className="project_type">
+              <span>개인 프로젝트</span>
+            </div>
             <p>
               <strong>
                 최신 게시물 확인 및 게시물을 올리고 수정하고 삭제 할 수 있는
