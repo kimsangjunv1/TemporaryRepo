@@ -174,7 +174,7 @@ const Section_15 = () => {
                     뮤직플레이어 웹 사이트 입니다.
                   </li>
                   <li>
-                    <a href="https://reactapiyt.netlify.app/">보기</a>
+                    <a href="https://react-pick.netlify.app/">보기</a>
                   </li>
                 </ul>
                 <ul>
@@ -184,7 +184,7 @@ const Section_15 = () => {
                     사이트입니다.
                   </li>
                   <li>
-                    <a href="#">보기</a>
+                    <a href="https://react-sumz.netlify.app/">보기</a>
                   </li>
                 </ul>
                 <ul>
@@ -199,7 +199,7 @@ const Section_15 = () => {
                     하였습니댜.
                   </li>
                   <li>
-                    <a href="#">보기</a>
+                    <a href="#">보기(수정중)</a>
                   </li>
                 </ul>
                 <ul>
@@ -213,7 +213,7 @@ const Section_15 = () => {
                     불러옵니다.
                   </li>
                   <li>
-                    <a href="https://reactapiyt.netlify.app/">보기</a>
+                    <a href="https://react-techtube.netlify.app/">보기</a>
                   </li>
                 </ul>
               </div>

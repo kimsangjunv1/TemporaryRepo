@@ -61,7 +61,7 @@ const Section_07 = () => {
             </div> */}
             <div className="section6p5_button_cont">
               <a href="https://github.com/kimsangjunv1/react_youtube">CODE</a>
-              <a href="https://reactapiyt.netlify.app/">VIEW</a>
+              <a href="https://react-techtube.netlify.app/">VIEW</a>
             </div>
           </div>
         </div>

@@ -86,9 +86,7 @@ const Section_06 = () => {
               <a href="https://github.com/kimsangjunv1/-React-OpenAI-Summarizer-website">
                 CODE
               </a>
-              <a href="http://vvv0032.dothome.co.kr/site/site5/index.html">
-                VIEW
-              </a>
+              <a href="https://react-sumz.netlify.app/">VIEW</a>
             </div>
           </div>
         </div>
@@ -125,7 +123,7 @@ const Section_06 = () => {
               <a href="https://github.com/kimsangjunv1/-React-Car-Showcase">
                 CODE
               </a>
-              <a href="https://react-pick.netlify.app">VIEW</a>
+              <a href="#">VIEW(수정중)</a>
             </div>
           </div>
         </div>
