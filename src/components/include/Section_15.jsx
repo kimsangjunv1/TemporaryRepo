@@ -21,37 +21,27 @@ const Section_15 = () => {
                   <li>작업물 보기</li>
                   <li>모든 작업물을 볼 수 있도록 한곳에 정리하였습니다</li>
                   <li>
-                    <a href="http://vvv0032.dothome.co.kr/">보기</a>
+                    <a href="http://vvv0032.dothome.co.kr/codingclass">
+                      전체보기
+                    </a>
                   </li>
                 </ul>
               </div>
             </ul>
             <ul>
-              <li>HTML/JS</li>
+              <li>
+                HTML
+                <br />
+                CSS
+                <br />
+                JS
+              </li>
               <div>
                 <ul>
-                  <li>자바스크립트・HTML・CSS</li>
+                  <li>자바스크립트</li>
                   <li>
-                    자바스크립트 사용시 사용될 모든 용어들에 대해 정리한 사이트
-                    입니다
-                  </li>
-                  <li>
-                    <a href="http://vvv0032.dothome.co.kr/javascript/index.html">
-                      JAVASCRIPT
-                    </a>
-                    <a href="http://vvv0032.dothome.co.kr/css/index.html">
-                      CSS
-                    </a>
-                    <a href="http://vvv0032.dothome.co.kr/html/alphabet.html">
-                      HTML
-                    </a>
-                  </li>
-                </ul>
-                <ul>
-                  <li>JS 이펙트</li>
-                  <li>
-                    각각 자바스크립트가 가진 명령어들의 특징을 살린 기능들을
-                    각각의 섹션으로 나누어 구현해두었습니다!
+                    addEventListener() 및 setInterval() 과 같은 함수들을 활용해
+                    구현해본 예제 입니다.
                   </li>
                   <li>
                     <a href="http://vvv0032.dothome.co.kr/javascript/effect/searchEffect01.html">
@@ -74,14 +64,28 @@ const Section_15 = () => {
                     </a>
                   </li>
                 </ul>
+                <ul>
+                  <li>각 용어 정리</li>
+                  <li>
+                    태그, 속성, 함수 등 각 용어들이 어떤 쓰임새로 쓰이는지 따로
+                    정리해놓은 페이지를 모아놓았습니다.
+                  </li>
+                  <li>
+                    <a href="http://vvv0032.dothome.co.kr/javascript/index.html">
+                      JAVASCRIPT
+                    </a>
+                    <a href="http://vvv0032.dothome.co.kr/css/index.html">
+                      CSS
+                    </a>
+                    <a href="http://vvv0032.dothome.co.kr/html/alphabet.html">
+                      HTML
+                    </a>
+                  </li>
+                </ul>
               </div>
             </ul>
             <ul>
-              <li>
-                PHP
-                <br />
-                프로젝트
-              </li>
+              <li>PHP</li>
               <div>
                 <ul>
                   <li>블로그</li>
@@ -96,6 +100,48 @@ const Section_15 = () => {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </ul>
+            <ul>
+              <li>
+                React
+                <br />
+                Vue
+              </li>
+              <div>
+                <ul>
+                  <li>REACT</li>
+                  <li>
+                    REACT의 기본문법 및 DOM구조를 이해하고, 컴포넌트를 분리하는
+                    방법을 학습하여 API사이트를 제작 해보았습니다.
+                  </li>
+                  <li>
+                    <a href="https://reactapi11.netlify.app/">기본구조</a>
+                    <a href="https://reactapi11.netlify.app/">Unsplash API</a>
+                    <a href="https://reactapi11.netlify.app/">TMDB API</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>VUE</li>
+                  <li>
+                    VUE의 기본문법 및 DOM구조를 이해하고, 컴포넌트를 분리하는
+                    방법을 학습하여 API사이트를 제작 해보았습니다.
+                  </li>
+                  <li>
+                    <a href="https://vueapi11.netlify.app/">기본구조</a>
+                    <a href="https://reactapi11.netlify.app/">Unsplash API</a>
+                    <a href="https://reactapi11.netlify.app/">TMDB API</a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+            <ul className="project">
+              <li>
+                PHP
+                <br />
+                프로젝트
+              </li>
+              <div>
                 <ul>
                   <li>'꾸다'</li>
                   <li>
@@ -113,7 +159,7 @@ const Section_15 = () => {
                 </ul>
               </div>
             </ul>
-            <ul>
+            <ul className="project">
               <li>
                 React
                 <br />
@@ -122,9 +168,38 @@ const Section_15 = () => {
               <div>
                 <ul>
                   <li>Pick</li>
-                  <li>뮤직플레이어</li>
+                  <li>
+                    오늘의 날씨에 따라 노래를 추천해주고, 주간 날씨 및 각
+                    노래들의 순위와 아티스트들에 대한 정보를 확인 해볼 수 있는
+                    뮤직플레이어 웹 사이트 입니다.
+                  </li>
                   <li>
                     <a href="https://reactapiyt.netlify.app/">보기</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>Sumz</li>
+                  <li>
+                    Sumz는 우리가 일상 생활에서 보는 뉴스 본문들을 요약해주는
+                    사이트입니다.
+                  </li>
+                  <li>
+                    <a href="#">보기</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>Car Hub</li>
+                  <li>
+                    Car Hub는 제조사별 차량들의 모습과 상세 정보를 알 수 있는
+                    사이트 입니다.
+                    <br />
+                    Axios를 사용해 RESTful API를 활용해서 각 컴포넌트 별로
+                    props를 넘겨주고 타입스크립트를 활용함으로써 각 props와
+                    가공받아야 할 데이터들의 타입이 제대로 지켜질 수 있도록
+                    하였습니댜.
+                  </li>
+                  <li>
+                    <a href="#">보기</a>
                   </li>
                 </ul>
                 <ul>
@@ -139,32 +214,6 @@ const Section_15 = () => {
                   </li>
                   <li>
                     <a href="https://reactapiyt.netlify.app/">보기</a>
-                  </li>
-                </ul>
-              </div>
-            </ul>
-            <ul>
-              <li>
-                기본 구조
-                <br />
-                사이트
-              </li>
-              <div>
-                <ul>
-                  <li>REACT / VUE</li>
-                  <li>
-                    VUE와 REACT의 기본문법 및 DOM구조를 이해하고, 컴포넌트를
-                    분리하는 방법을 학습하여 API사이트를 제작 해보았습니다.
-                  </li>
-                  <li>
-                    <p>
-                      <a href="https://vueapi11.netlify.app/">VUE : API</a>
-                      {/* <a href="#">VUE : 사이트 유형</a> */}
-                    </p>
-                    <p>
-                      <a href="https://reactapi11.netlify.app/">REACT : API</a>
-                      {/* <a href="#">REACT : 사이트 유형</a> */}
-                    </p>
                   </li>
                 </ul>
               </div>
